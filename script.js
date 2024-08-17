@@ -219,7 +219,7 @@ function restaurantOpen() {
     const data = new Date();
     const hora = data.getHours();
 
-    return hora >= 18 && hora < 22;
+    return hora >= 9 && hora < 19;
     // TRUE = RESTAURANTE ABERTO
 }
 
