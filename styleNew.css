@@ -18,13 +18,13 @@
 .header {
     width: 100%;
     height: 420px;
-    background-color: #550763;
+    background-color: var(--pink);
     /* Substitua bg-home pela URL da sua imagem */
     background-size: cover;
     background-position: center;
 
     /* TROCAR */
-    /* background-image: url('img/1.png'); */
+    background-image: url('img/bg-header.png');
 }
 
 .header_content {
